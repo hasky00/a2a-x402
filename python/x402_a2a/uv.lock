@@ -2595,7 +2595,7 @@ wheels = [
 
 [[package]]
 name = "x402-a2a"
-version = "1.0.0"
+version = "0.1.0"
 source = { editable = "." }
 dependencies = [
     { name = "a2a-sdk" },

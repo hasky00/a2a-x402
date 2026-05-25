@@ -67,3 +67,4 @@ warn_unused_configs = true
 warn_redundant_casts = true
 warn_unused_ignores = true
 strict_equality = true
+ignore_missing_imports = true
