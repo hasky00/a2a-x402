@@ -24,13 +24,13 @@ build-backend = "hatchling.build"
 allow-direct-references = true
 
 [tool.hatch.build.targets.wheel]
-packages = ["server", "client"]
+packages = ["server", "client_agent"]
 
 [project.scripts]
 server = "server.__main__:main"
 
 [tool.uv.workspace]
-members = ["client"]
+members = []
 
 [tool.uv.sources]
 x402-a2a = { path = "../../../python/x402_a2a", editable = true }
